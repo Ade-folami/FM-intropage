@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="nav">
+      <img src="images/logo.svg" alt="snaplogo" class="nav__logo" />
+      <div class="nav__links">
+        <div class="nav__menu">
+          <select>
+            <option value="1">Features</option>
+            <option value="2">
+              <span><img src="images/icon-todo.svg" alt="todo-icon" /></span
+              >Todo list
+            </option>
+            <option value="">
+              <span
+                ><img
+                  src="images/icon-calendar.svg"
+                  alt="Calendar-icon" /></span
+              >Calendar
+            </option>
+            <option value="">
+              <span><img src="images/icon-reminders.svg" alt="rem-icon" /></span
+              >Reminder
+            </option>
+            <option value="">
+              <span><img src="images/icon-planning.svg" alt="plan-icon" /></span
+              >Planning
+            </option>
+          </select>
+        </div>
+        <div class="nav__menu">
+          <select name="Company" id="Company">
+            <option value="">Company</option>
+            <option value="">History</option>
+            <option value="">Our Team</option>
+            <option value="">Blog</option>
+          </select>
+        </div>
+        <div class="nav__link">Careers</div>
+        <div class="nav__link">About</div>
+      </div>
+      <div class="nav__buttons">
+        <div class="nav__link">Login</div>
+        <div class="nav__button">Register</div>
+      </div>
+    </nav>
+    <section class="home">
+      <div class="home__text">
+        <h1 class="heading__primary">
+          Make<br />
+          remote work
+        </h1>
+        <p class="home__text-paragraph">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a href="#" class="home__button"> Learn more </a>
+      </div>
+      <div class="home__image">
+        <img
+          src="images/image-hero-desktop.png"
+          alt="hero-image"
+          class="hero-image"
+        />
+      </div>
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Adefolami</a>.
+    </div>
+  </body>
+</html>
